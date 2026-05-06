@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"verify that the login page works","30155","verify that login works","chromium","2026-05-05","broken","2026-05-05","","05_Allurereporting/login.spec.ts","",""
