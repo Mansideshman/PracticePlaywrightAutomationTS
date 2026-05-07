@@ -13,10 +13,11 @@ build/
 .env.local
 .env.*.local
 
-# Test reports
+# Test reports (both old locations and new utils folder)
 playwright-report/
 allure-results/
 tta-report/
+utils/reports/
 coverage/
 .nyc_output/
 

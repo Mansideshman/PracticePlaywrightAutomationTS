@@ -411,7 +411,7 @@ class CustomTTAReporter implements Reporter {
         console.log('╠════════════════════════════════════════════════════════════════╣');
         console.log(`║  ✅ Passed:  ${String(this.suiteStats.passed).padEnd(49)}║`);
         console.log(`║  ❌ Failed:  ${String(this.suiteStats.failed).padEnd(49)}║`);
-        console.log(`║  ⏭️  Skipped: ${String(this.suiteStats.skipped).padEnd(49)}║`);
+        console.log(`║  ⏭️ Skipped: ${String(this.suiteStats.skipped).padEnd(49)}║`);
         console.log(`║  📊 Total:   ${String(this.suiteStats.total).padEnd(49)}║`);
         console.log('╠════════════════════════════════════════════════════════════════╣');
         console.log(`║  ⏱️  Duration: ${duration.padEnd(47)}║`);
