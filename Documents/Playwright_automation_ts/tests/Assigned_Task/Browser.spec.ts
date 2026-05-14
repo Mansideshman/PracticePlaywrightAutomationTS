@@ -37,8 +37,8 @@ test('browser with same context', async({browser})=>
     let page1 = await context1.newPage();
     await page1.goto("https://app.vwo.com/#login");
 
-   // let context2 = await browser.newContext();
-   // console.log("context2 created");
+    // let context2 = await browser.newContext();
+    // console.log("context2 created");
     let page2 = await context1.newPage();
     await page2.goto("https://app.vwo.com/#dashboard");
 

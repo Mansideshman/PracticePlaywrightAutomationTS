@@ -2,7 +2,7 @@ import { chromium, Browser, BrowserContext, Page } from 'playwright';
 
 async function run()
 {
-    //Level1:Launch browser -heaviest operationdo it once
+    //Level1:Launch browser -heaviest operation do it once
     let browser: Browser = await chromium.launch({headless:false});
     console.log("Browser Launched",browser);
 
@@ -27,4 +27,8 @@ async function run()
 
 }
 run();
+
+
+
+
 
