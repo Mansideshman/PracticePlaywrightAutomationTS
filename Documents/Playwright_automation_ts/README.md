@@ -167,6 +167,7 @@ The project is configured with:
 - E-commerce workflows
 - Multi-step form handling
 - Integration testing
+- iframe and frame handling (proj7_iframe.spec.ts)
 
 ## 🛠️ Development
 
@@ -257,5 +258,10 @@ Developed for automated testing excellence.
 
 ---
 
-**Last Updated**: May 14, 2026  
+**Last Updated**: May 15, 2026  
 **Status**: Production Ready ✅
+
+## 📝 Recent Updates
+
+- **Console Output Fix**: Updated playwright.config.ts with `list` reporter to display console.log output
+- **proj7_iframe.spec.ts**: Fixed syntax errors and added iframe/frame element validation with proper console logging
